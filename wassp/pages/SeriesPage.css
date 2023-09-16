@@ -1,0 +1,67 @@
+.series-grid-container {
+   
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+
+.series-content-container {
+
+
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-between; 
+  align-items: center;
+  grid-column: 1 / span 12; 
+  grid-row: 3; 
+  align-self: end;
+}
+
+
+.series-header p {
+
+
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color:white;
+}
+
+.series-header h1{
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  color:white;
+}
+
+
+.series-content p {
+  font-family: 'neue-haas-grotesk-display';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 18.3px;
+  color:white;
+
+
+}
+
+.series-content-link {
+  font-family: 'neue-haas-grotesk-display';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 18.3px;
+  color:white;
+
+
+}
