@@ -1,0 +1,57 @@
+.testimonal-grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 100vh;
+}
+
+.testimonal-animation {
+  grid-column: 1 / span 12;
+}
+
+.testimonal-container {
+  grid-column: 1 / span 12;
+  grid-row: 3;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.testimonal-text {
+  grid-column: 5 / span 12;
+  grid-row: 3;
+  margin-right: 30px;
+}
+
+.testimonal-pagnation {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.testimonal-pagnation p {
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: white;
+}
+
+.testimonal-text h1 {
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.testimonal-text p {
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 18.3px;
+  color: white;
+}

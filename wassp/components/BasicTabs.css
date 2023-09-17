@@ -1,0 +1,96 @@
+
+
+
+.MuiTabs-indicator {
+  display: none;
+}
+
+
+.MuiTab-root.tab-box.Mui-selected {
+  background-color: white;
+  color: black;
+}
+
+
+.MuiTab-root.tab-box:focus {
+  outline: none;
+}
+
+.MuiTabs-flexContainer{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: flex-start;  
+  gap: 10px; 
+
+}
+
+.MuiTab-root.tab-box {
+  color: white;
+  border: 1px solid white;
+  border-radius: 3rem;
+  font-family: 'neue-haas-grotesk-display';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 18.3px;
+  padding: 10px 30px 10px 30px;
+  text-transform: none !important; 
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.MuiTab-root.tab-box:hover{
+
+  background-color: white;
+  color: black;
+}
+
+
+
+
+.tab-number {
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  
+
+}
+
+.tab-heading{
+  width: 70%;
+}
+
+
+.tab-heading h1 {
+  font-family: 'neue-haas-grotesk-display';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 60px;
+  line-height: 68.8px;
+  color: white;
+}
+
+.tab-heading p {
+  font-family: 'neue-haas-grotesk-display';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 18.3px;
+  color: white;
+}
+
+.tab-heading-number p{
+  font-family: 'neue-haas-grotesk-display';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 27.46px;
+  color: white;
+
+}

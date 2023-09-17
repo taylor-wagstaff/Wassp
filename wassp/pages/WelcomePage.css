@@ -6,7 +6,7 @@
   grid-template-rows: repeat(3, 300px);
   margin-left: 30px;
   margin-right: 30px;
-  
+  height: 100vh; 
 
 
 }
@@ -98,5 +98,10 @@
   justify-content: center; 
   align-items: center; 
   gap: 10px;
+
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 18.3px;
 
 }

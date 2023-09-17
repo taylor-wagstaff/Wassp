@@ -1,0 +1,36 @@
+.animation-container {
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  overflow-x: visible;
+}
+
+.animation-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  height: 120px;
+}
+
+.animation-content h1 {
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  white-space: nowrap;
+}
+
+.animation-button {
+  padding: 10px 30px 10px 30px;
+  border-radius: 3rem;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

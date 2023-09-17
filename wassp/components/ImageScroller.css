@@ -1,0 +1,11 @@
+.animation-image-container {
+  overflow-x: visible;
+  width: 100%;
+}
+
+.animation-image-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}

@@ -2,6 +2,7 @@
 
 import './SeriesPage.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 
@@ -15,7 +16,7 @@ export default function SeriesPage() {
       <div className='series-content-container'>
 
         <div className='series-header'>
-        <div>
+        <div className='series-pagnation'>
         <p>01</p>
         <p>03</p>
         </div>

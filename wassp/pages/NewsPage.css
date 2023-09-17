@@ -1,0 +1,125 @@
+.news-grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 100vh;
+}
+
+.news-container {
+  grid-column: 1 / span 12;
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.image-animation {
+
+  grid-column: 1 / span 12;
+  grid-row: 4;
+
+}
+
+.news-pagnation {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.news-pagnation p {
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: white;
+}
+
+/* images */
+
+.news-images-container {
+  grid-column: 5 / span 12;
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.news-images-content {
+  border: 0.5px solid white;
+  padding: 20px 20px 0px 20px;
+  border-radius: 5px;
+}
+
+.news-images-content p {
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 24px;
+  font-weight: 450;
+  line-height: 27.26px;
+  color: white;
+}
+
+.view-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-items p {
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 27.26px;
+  color: white;
+}
+
+/* images */
+
+.image-1 {
+  position: relative;
+  width: 369px;
+  height: 227px;
+  background-image: linear-gradient(
+      180deg,
+      #041d2f 0%,
+      rgba(4, 29, 47, 0) 28.65%,
+      rgba(4, 25, 43, 0) 73.18%,
+      #04192b 100%
+    ),
+    url(/assets/03.jpg);
+  background-size: cover;
+}
+
+.image-2 {
+  position: relative;
+  width: 369px;
+  height: 227px;
+  background-image: linear-gradient(
+      180deg,
+      #041d2f 0%,
+      rgba(4, 29, 47, 0) 28.65%,
+      rgba(4, 25, 43, 0) 73.18%,
+      #04192b 100%
+    ),
+    url(/assets/04.jpg);
+  background-size: cover;
+}
+
+.image-3 {
+  position: relative;
+  width: 369px;
+  height: 227px;
+  background-image: linear-gradient(
+      180deg,
+      #041d2f 0%,
+      rgba(4, 29, 47, 0) 28.65%,
+      rgba(4, 25, 43, 0) 73.18%,
+      #04192b 100%
+    ),
+    url(/assets/05.jpg);
+  background-size: cover;
+}
+
+
+

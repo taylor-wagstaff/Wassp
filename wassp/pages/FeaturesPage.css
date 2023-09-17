@@ -1,0 +1,38 @@
+.features-grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 100vh; 
+}
+
+
+.features-nav-container {
+  display: flex;
+  flex-direction: row;
+  grid-column: 4  / span 8; 
+  grid-row: 2; 
+
+
+}
+
+.features-pagnation {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  grid-row: 2;
+}
+
+
+
+.features-pagnation p {
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color:white;
+}
+

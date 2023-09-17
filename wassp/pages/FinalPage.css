@@ -1,0 +1,105 @@
+.final-grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 2;
+}
+
+.footer-container-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  grid-column: 9 / span 2;
+  grid-row: 2 / span 2;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-container-locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  grid-column: 11 / span 1;
+  grid-row: 2 / span 2;
+}
+
+.content-text {
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 24px;
+  font-weight: 450;
+  line-height: 27.46px;
+  color: white;
+}
+
+.subscribe a {
+  color: white;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 18.3px;
+}
+
+.footer-container-links a,
+.footer-container-links p {
+  color: white;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 18.3px;
+  text-decoration: none;
+}
+
+.footer-container-locations a,
+.footer-container-locations p {
+  color: white;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 18.3px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.footer-container-links a:hover,
+.footer-container-locations a:hover {
+  text-decoration: underline;
+}
+
+.final-button {
+  padding: 10px 30px 10px 30px;
+  border-radius: 3rem;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+  gap: 10px;
+}
+
+.footer-bottom-heading {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  grid-column: 1 / span 12;
+  grid-row: 5;
+}
+
